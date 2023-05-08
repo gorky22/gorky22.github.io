@@ -15,7 +15,7 @@ body, html {
 .bgimg {
   background-position: center;
   background-size: cover;
-  background-image: url("gorky22.github.io/img/meteor.jpg");
+  background-image: url("/img/meteor.jpg");
   min-height: 75%;
 }
 
@@ -81,7 +81,7 @@ body, html {
 
     <div id="Available resources" class="w3-container menu w3-padding-48 w3-card">
       <h5>Thesis</h5>
-      <p>PDF <a href="/gorky22.github.io/file/LaTex_Diplomova_Praca__Copy_.pdf"></a>.</p>
+      <p><a href="/file/LaTex_Diplomova_Praca__Copy_.pdf"> PDF</a>.</p>
     
       <h5>Honey Almond Granola with Fruits</h5>
       <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
@@ -102,23 +102,6 @@ body, html {
 <!-- End page content -->
 </div>
 
-<script>
-// Tabbed Menu
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-}
-document.getElementById("myLink").click();
-</script>
 
 </body>
 </html>
