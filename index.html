@@ -44,24 +44,37 @@ body, html {
   </div>
 </div>
 
-<!-- Header with image -->
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
-  <!-- <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Open from 6am to 5pm</span>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">15 Adr street, 5015</span>
-  </div>
-  </div>-->
+<style>
+  .names-container {
+    width: 300px; /* Set your preferred width */
+    text-align: right;
+  }
 
-  <div class="w3-display-middle w3-center">
-    <div class="w3-display-middle w3-center">
-      <span class="w3-text-white" style="font-size:40px">3D position reconstruction of reentry objects fragments using two video recordings.</span>
+  .test {
+    width: 900px; /* Set your preferred width */
+    text-align: center; /* Adjust as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Optionally, set the height of the container */
+  }
+</style>
+
+</style>
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="test">
+    <div class="header-content">
+      <span class="w3-text-black" style="font-size:40px">3D position reconstruction of reentry objects fragments using two video recordings.</span>
     </div>
-    <div class="w3-display-topright w3-padding">
-      <div class="w3-text-white">Author: Bc. Damián Gorčák</div>
+    <div class="names-container">
+      <div class="w3-text-black">Author: Bc. Damián Gorčák</div>
       <div class="w3-text-white">Supervisor: Mgr. Daniel Kyselica</div>
       <div class="w3-text-white">Consultant: Mgr. Jiří Šilha, PhD.</div>
     </div>
+  </div>
 </header>
 
 <!-- Add a background color and large text to the whole page -->
